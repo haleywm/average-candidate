@@ -2,8 +2,17 @@
 
 *The average face and description of every candidate for different parties.*
 
-The goal of this project is to experiment with Markov chains and web scraping, in order to scrape information to generate a joke candidate page using the combined information of every candidate.
+A little tool I put together to crawl different WA party websites to generate the average, candidate in order to create the ultimate candidates that can save the world.
 
-I hope to be able to use a decent level of automation in this, so that I can easily generate pages using candidates within certain states, across the country, or potentially within regions depending on the complexity.
+Usage:
 
-I will be primarily targetting the Australian Liberal, Labor, and Greens parties as they are the biggest parties, however I may expand this depending on how the complexity works out to be.
+First, install OpenCV from source, as it is required for Facemorpher. (stasm requires library files, so the precompiled version available on pip will not work).
+
+After that, cd in `src`, and run `python3 -m pip install --upgrade pip && pip install -r requirements.txt`. Once this is done, you should be able to run `python main.py` and select which one you would like to do.
+
+## To Do:
+
+- Better split up the components so that only parts of the generation can be done
+- Investigate the best way to handle templates. I have made templates for each party, but as they were made by modifying websites from each party I do not know if I can legally publish them.
+- General code clean up and improvement of messages.
+- Investigate using GPT to generate more legible text.
