@@ -1,0 +1,26 @@
+---
+Greens WA:
+  list-urls:
+    - https://greens.org.au/wa/state-candidates
+  link-selector: a.person-box
+  image-selector: div.person-contact img
+  name-selector: h1.hero-image-title
+  description-selector: div.text-formatted
+  template: greenswa.html
+Liberals WA:
+  list-urls:
+    - https://www.waliberal.org.au/state-candidates/
+  link-selector: a.more-link
+  image-selector: div.et_pb_image_0 img
+  name-selector: div.et_pb_row_0 div.et_pb_text_inner>h1
+  description-selector: div.et_pb_row_2>div>div:last-child
+  template: liberalswa.html
+Labor WA:
+  list-urls:
+    - https://walabor.org.au/team/
+  link-selector: div.rte-styling a
+  image-selector: div.image-wrapper img
+  name-selector: div.col-md-8.mobile-margin div.rte-styling h2
+  description-selector: div.col-md-8.mobile-margin div.rte-styling
+  template: laborwa.html
+...

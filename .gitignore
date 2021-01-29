@@ -1,0 +1,6 @@
+__pycache__
+# Ignoring templates until I can be sure that I can legally use them, as I am scraping their outline from the internet
+# The fallback of outputting to a text file still works fine
+src/templates/
+
+src/output/
